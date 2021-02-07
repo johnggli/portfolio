@@ -10411,7 +10411,7 @@ a.text-dark:hover, a.text-dark:focus {
   left: 0;
   background: rgba(0, 0, 0, .5);
   z-index: 10;
-  max-height: 45rem;
+  max-height: 45.7rem;
 }
 .masthead video {
   width: 100%;
@@ -10421,14 +10421,14 @@ a.text-dark:hover, a.text-dark:focus {
   left: 0;
   object-fit: cover;
   z-index: 5;
-  max-height: 45rem;
+  max-height: 45.7rem;
 }
 .masthead-content {
   z-index: 20;
 }
 .masthead .masthead-heading {
-  font-size: 2.75rem;
-  line-height: 2.75rem;
+  font-size: 4rem;
+  line-height: 3.5rem;
 }
 .masthead .masthead-subheading {
   font-size: 1.25rem;
@@ -10437,23 +10437,46 @@ a.text-dark:hover, a.text-dark:focus {
   width: 15rem;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
-    font-size: 4rem;
-    line-height: 3.5rem;
+    font-size: 2.75rem;
+    line-height: 2.75rem;
   }
   .masthead .masthead-subheading {
     font-size: 1.5rem;
   }
   .masthead::after {
-    max-height: 48rem;
+    max-height: 47.2rem;
+    min-height: 47.2rem;
   }
   .masthead video {
-    max-height: 48rem;
+    max-height: 47.2rem;
+    min-height: 47.2rem;
+  }
+  .portfolio-modal .portfolio-modal-title {
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+}
+@media (max-width: 576px) {
+  .masthead .masthead-avatar {
+    width: 10rem;
+  }
+  .masthead .masthead-heading {
+    font-size: 2rem;
+    line-height: 1.2rem;
+  }
+  .masthead::after {
+    max-height: 40.6rem;
+    min-height: 40.6rem;
+  }
+  .masthead video {
+    max-height: 40.6rem;
+    min-height: 40.6rem;
   }
 }
 .portfolio .portfolio-item {
@@ -10490,12 +10513,6 @@ a.text-dark:hover, a.text-dark:focus {
 .portfolio-modal .portfolio-modal-title {
   font-size: 2.25rem;
   line-height: 2rem;
-}
-@media (min-width: 992px) {
-  .portfolio-modal .portfolio-modal-title {
-    font-size: 3rem;
-    line-height: 2.5rem;
-  }
 }
 .portfolio-modal .close {
   position: absolute;

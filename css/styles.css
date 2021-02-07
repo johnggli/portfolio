@@ -10411,6 +10411,7 @@ a.text-dark:hover, a.text-dark:focus {
   left: 0;
   background: rgba(0, 0, 0, .5);
   z-index: 10;
+  max-height: 45rem;
 }
 .masthead video {
   width: 100%;
@@ -10420,6 +10421,7 @@ a.text-dark:hover, a.text-dark:focus {
   left: 0;
   object-fit: cover;
   z-index: 5;
+  max-height: 45rem;
 }
 .masthead-content {
   z-index: 20;
@@ -10446,6 +10448,12 @@ a.text-dark:hover, a.text-dark:focus {
   }
   .masthead .masthead-subheading {
     font-size: 1.5rem;
+  }
+  .masthead::after {
+    max-height: 48rem;
+  }
+  .masthead video {
+    max-height: 48rem;
   }
 }
 .portfolio .portfolio-item {

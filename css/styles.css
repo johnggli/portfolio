@@ -10402,6 +10402,28 @@ a.text-dark:hover, a.text-dark:focus {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
 }
+.masthead::after {
+  width: 100%;
+  height: 100%;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .5);
+  z-index: 10;
+}
+.masthead video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: 5;
+}
+.masthead-content {
+  z-index: 20;
+}
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;

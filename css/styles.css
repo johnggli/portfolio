@@ -10448,38 +10448,17 @@ a.text-dark:hover, a.text-dark:focus {
   width: 15rem;
 }
 
+/* 
 @media (pointer: coarse) and (hover: none) {
-  header {
-    background: url('img/stars.png') black no-repeat center center scroll;
+  .masthead {
+    background: url('../img/stars.png') black no-repeat center center scroll;
   }
-  header video {
+  .masthead video {
     display: none;
   }
 }
+*/
 
-/* @media (max-width: 992px) {
-  .masthead {
-    padding-top: calc(6rem + 104px);
-    padding-bottom: 6rem;
-  }
-  .masthead .masthead-heading {
-    font-size: 2.75rem;
-    line-height: 2.75rem;
-  }
-  .masthead .masthead-subheading {
-    font-size: 1.5rem;
-  }
-  #page-top::after {
-    height: 47.4rem;
-  }
-  #page-top video {
-    height: 47.4rem;
-  }
-  .portfolio-modal .portfolio-modal-title {
-    font-size: 3rem;
-    line-height: 2.5rem;
-  }
-}
 @media (max-width: 576px) {
   .masthead .masthead-avatar {
     width: 10rem;
@@ -10488,21 +10467,24 @@ a.text-dark:hover, a.text-dark:focus {
     font-size: 2rem;
     line-height: 2rem;
   }
-  #page-top::after {
-    height: 41.6rem;
+  .divider-custom {
+    margin: .5rem 0 .5rem;
   }
-  #page-top video {
-    height: 41.6rem;
+  .divider-custom .divider-custom-line {
+    max-width: 4rem;
+    height: .1rem;
+  }
+  .divider-custom .divider-custom-line:first-child {
+    margin-right: .5rem;
+  }
+  .divider-custom .divider-custom-line:last-child {
+    margin-left: .5rem;
+  }
+  .divider-custom .divider-custom-icon {
+    font-size: 1.25rem;
   }
 }
-@media (max-width: 320px) {
-  #page-top::after {
-    height: 43.8rem;
-  }
-  #page-top video {
-    height: 43.8rem;
-  }
-} */
+
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;

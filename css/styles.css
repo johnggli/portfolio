@@ -10353,15 +10353,20 @@ a.text-dark:hover, a.text-dark:focus {
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
   color: #fff;
+  text-align: center;
+  margin: .1rem;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #000;
+  color: #007bff;
+  background-color: transparent;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #fff;
+  color: #007bff;
+  background-color: transparent;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
   color: #000;
+  background-color: #fff;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10392,12 +10397,12 @@ a.text-dark:hover, a.text-dark:focus {
     margin-top: 0;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #fff;
-    background: #000;
+    color: #000;
+    background-color: #fff;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #fff;
-    background: #000;
+    color: #000;
+    background-color: #fff;
   }
 
   #mainNav.navbar-shrink .navbar-brand {

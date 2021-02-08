@@ -10368,6 +10368,16 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 0.8rem;
 }
 
+#mainNav.navbar-shrink {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background: #000 !important;
+  transition: .5s ease;
+}
+#mainNav:not(.navbar-shrink) {
+  transition: .5s ease;
+}
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 1.5rem;
@@ -10390,7 +10400,11 @@ a.text-dark:hover, a.text-dark:focus {
     background: #000;
   }
 
-  #mainNav.navbar-shrink {
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+  }
+
+  /* #mainNav.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     background: #000 !important;
@@ -10401,7 +10415,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
-  }
+  } */
 }
 .masthead {
   padding-top: calc(6rem + 74px);

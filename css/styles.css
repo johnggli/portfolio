@@ -10625,3 +10625,17 @@ form .row:first-child .floating-label-form-group {
   99% { background-color: transparent; }
   100% { background-color: #fff; }
 }
+
+/* Create a Parallax Effect */
+.bgimg {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg {
+  background-image: url('../img/stars.png');
+  min-height: 100%;
+}

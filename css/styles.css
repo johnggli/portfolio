@@ -10642,6 +10642,26 @@ form .row:first-child .floating-label-form-group {
 
 /* First image (Logo. Full height) */
 .bgimg {
-  background-image: url('../img/stars.png');
+  background-image: url('../img/image-background.jpg');
   min-height: 100%;
+}
+
+.bgimg {
+  position: relative;
+}
+
+.bgimg .container {
+  position: relative;
+  z-index: 2;
+}
+
+.bgimg .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: .25;
+  z-index: 1;
 }

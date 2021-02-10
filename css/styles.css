@@ -10310,6 +10310,12 @@ a.text-dark:hover, a.text-dark:focus {
 .divider-custom.divider-light .divider-custom-icon {
   color: #fff !important;
 }
+.divider-custom.divider-black .divider-custom-line {
+  background-color: #000;
+}
+.divider-custom.divider-black .divider-custom-icon {
+  color: #000 !important;
+}
 
 .btn-xl {
   padding: 1rem 1.75rem;

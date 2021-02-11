@@ -10511,6 +10511,10 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+.portfolio {
+  background-color: #F3F3F3;
+}
+
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;

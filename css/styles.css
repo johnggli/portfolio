@@ -10669,3 +10669,42 @@ form .row:first-child .floating-label-form-group {
   opacity: .25;
   z-index: 1;
 }
+
+.skill-bar {
+  height: 20px;
+  background-color: #cacaca;
+  border-radius: 8px;
+}
+
+.skill-per {
+  height: 20px;
+  background-color: #0fbcf9;
+  border-radius: 8px;
+  position: relative;
+  width: 50%;
+}
+
+.skill-per::before {
+  content: attr(per);
+  position: absolute;
+  padding: 4px;
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 4px;
+  top: -35px;
+  right: 0;
+  transform: translateX(50%);
+}
+
+.skill-per::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  top: -16px;
+  right: 0;
+  transform: translateX(50%) rotate(45deg);
+  border-radius: 2px;
+}

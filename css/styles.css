@@ -10687,14 +10687,16 @@ form .row:first-child .floating-label-form-group {
 .skill-per::before {
   content: attr(per);
   position: absolute;
-  padding: 4px;
+  padding: 2px 5px;
   background-color: #000;
   color: #fff;
   font-size: 12px;
   border-radius: 4px;
-  top: -35px;
+  top: -30px;
   right: 0;
   transform: translateX(50%);
+
+  z-index: 1;
 }
 
 .skill-per::after {
@@ -10703,7 +10705,7 @@ form .row:first-child .floating-label-form-group {
   width: 10px;
   height: 10px;
   background-color: #000;
-  top: -16px;
+  top: -14px;
   right: 0;
   transform: translateX(50%) rotate(45deg);
   border-radius: 2px;

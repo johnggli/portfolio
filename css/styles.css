@@ -10709,3 +10709,7 @@ form .row:first-child .floating-label-form-group {
   transform: translateX(50%) rotate(45deg);
   border-radius: 2px;
 }
+
+.translate {
+  cursor: pointer;
+}

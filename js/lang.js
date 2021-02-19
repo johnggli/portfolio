@@ -39,6 +39,9 @@ $(function() {
 
     $('.lang').each(function() {
       $(this).text(arrLang[lang][$(this).attr('key')]);
+    });
+
+    $('.lang-input').each(function() {
       $(this).attr('placeholder', arrLang[lang][$(this).attr('key')]);
     });
   });

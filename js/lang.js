@@ -14,6 +14,7 @@ var arrLang = {
     'email': 'Email',
     'message': 'Message',
     'send': 'Send Message',
+    'myEmail': 'My email',
   },
   'pt': {
     'language': 'Português',
@@ -30,6 +31,7 @@ var arrLang = {
     'email': 'Email',
     'message': 'Mensagem',
     'send': 'Enviar Mensagem',
+    'myEmail': 'Meu email',
   }
 };
 

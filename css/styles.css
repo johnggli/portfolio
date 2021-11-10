@@ -4,7 +4,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
- :root {
+:root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -10646,7 +10646,7 @@ form .row:first-child .floating-label-form-group {
 
 /* First image (Logo. Full height) */
 .bgimg {
-  background-image: url('./bg2.jpg');
+  background-image: url('../img/bg2.jpg');
   min-height: 100%;
 }
 

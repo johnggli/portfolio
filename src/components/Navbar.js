@@ -14,10 +14,10 @@ const Navbar = () => {
             <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger lang" href="#about" key="about">About</a></li>
             <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger lang" href="#contact" key="contact">Contact</a></li>
             <li className="nav-item mx-0 mx-lg-1 dropdown">
-              <a className="nav-link py-3 px-0 px-lg-3 rounded dropdown-toggle lang" href="#" id="navbardrop" data-toggle="dropdown" key="language">English</a>
+              <a className="nav-link py-3 px-0 px-lg-3 rounded dropdown-toggle lang" href="#!" id="navbardrop" data-toggle="dropdown" key="language">English</a>
               <div className="dropdown-menu">
-                <a className="dropdown-item js-scroll-trigger translate" id="en">English</a>
-                <a className="dropdown-item js-scroll-trigger translate" id="pt">Português</a>
+                <a className="dropdown-item js-scroll-trigger translate" href="#!" id="en">English</a>
+                <a className="dropdown-item js-scroll-trigger translate" href="#!" id="pt">Português</a>
               </div>
             </li>
           </ul>

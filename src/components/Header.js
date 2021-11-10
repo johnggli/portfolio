@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className="masthead text-white text-center">
       <div className="overlay"></div>
-      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <video playsInline="playsinline" autoPlay="autoplay" muted="muted" loop="loop">
         <source src="https://user-images.githubusercontent.com/43749971/107545995-a7471d00-6baa-11eb-9c75-e31da86a6e76.mp4" type="video/mp4" />
       </video>
       <div className="container position-relative d-flex align-items-center flex-column">

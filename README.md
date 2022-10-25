@@ -1,5 +1,5 @@
-<h1 align="center">Title</h1>
-<h3 align="center">Description.</h3>
+<h1 align="center">Portfolio</h1>
+<h3 align="center">My personal portfolio, made with bootstrap.</h3>
 
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/JohnEmerson1406/portfolio?color=04D361&labelColor=000000">
